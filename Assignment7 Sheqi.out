@@ -1,0 +1,42 @@
+Assignment 7  Sheqi Zhang
+
+1. Explain the difference between ++*p, *p++ and *++p, if there is any. 
+Answer:
+++*p increments the value at location p points to, then evaluates to incremented value.
+*p++ evaluates the value at location p points to, then advances p.
+*++p increments the value of p, then evaluate the location ++p points to.
+
+2. Is the left to right or right to left order guaranteed for operator precedence?
+Answer:
+In most situations, the left to right order is guarenteed, while for operators like "+=","-=", the order is right to left.
+
+3. What is the advantage of using pointers?
+Answer:
+The pointer provide a way for functions to modify their calling argument, and it supports the dynamic memory allocation. It's more effecient comparing with arrays.
+
+4. 
+ 4.1 "abc" <br>
+	char
+ 4.2 "xyz"[1] - ’y’ <br>
+	Invalid. "xyz"[1] is an array, while 'y' is character;
+ 4.3 ’\0’ == 0 <br>
+	boolean. It is judging if it's wrong.
+ 4.4 *a <br>
+	pointer. Because there is a "*" in front of "a".
+ 4.5 &a[0] <br>
+	pointer or array.
+	It can be the array in the scanf function, it can also be the pointer of the variable a[0].
+ 4.6 *p <br>
+	pointer. Because there is a "*" in front of "p".
+ 4.7 &p <br>
+	pointer or variable.
+	Because there is a "&", it may be a pointer. While it can also be a variable in the scanf function.
+ 4.8 *++argv <br>
+	pointer. Because there is a "*".
+ 4.9 &main <br>
+	Because there is a "&", it may be a pointer. While it can also be a variable in the scanf function.
+ 4.10 sizeof(str) <br>
+	Integer. The value is the length of str. 3?
+
+
+
