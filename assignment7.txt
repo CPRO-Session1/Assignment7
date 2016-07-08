@@ -1,0 +1,14 @@
+Jack Rosen
+1. ++*p increments the value at point p. *p++ increments p and then returns the value. *++p increments p and then returns the value as well.
+2. It is only guaranteed for certain operators. The first level of operators goes from left to right, the second goes from right to left, and the rest go from left to right.
+3.The advantages of using pointers is that they are very powerful and help a person work with arrays. It is also a way to access a variable without having to call for it.
+4.1 char *
+4.2 invalid
+4.3 invalid
+4.4 10
+4.5 0
+4.6 12
+4.7 2
+4.8 char
+4.9 0
+4.10 6
