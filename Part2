@@ -1,0 +1,34 @@
+Matthew Danielson
+7/7/16
+Part 2 of Assignment7
+
+1) ++*p increments the value of a pointer, and *p++ increments the address of a pointer. *++p is not valid, as it is incrementing invalidly.
+
+2) Left to right order is guaranteed for operator precedence; without this, many operators become essentially useless, because the logic of the code would not be reliable.
+
+3) Pointers are passed by reference allowing for multiple return types. Additionally, constant pointers can be made; additionally, arrays of pointers allow for non-standard char arrays that are of varying size. They can also be used to return an array of values.
+
+4) a[0] = 11
+a[1] = 11
+a[2] = 12
+a[3] = 13
+a[4] = 14
+a[5] = 15
+a[6] = 16
+a[7] = 17
+a[8] = 18
+a[9] = 19
+p = 12
+char *varname[]
+4.1 char[]
+4.2 would subtract ascii values, resulting in value 1, or SOH
+4.3 Valid, changes a char
+4.4 Pointer
+4.5 Returns the address of the beginning of the array
+4.6 Returns the value that said pointer points to
+4.7 Returns the address of a pointer
+4.8 Increments the address of the pointer
+4.9 Gets the address of the variable
+4.10 Returns an integer length of the space in memory
+
+
