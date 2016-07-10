@@ -1,0 +1,14 @@
+Lloyd Page
+1. ++*p dereferences the value that p points to and increments it. *p++ increments the pointer, and then dereferences it. *++p increments the pointer and then dereferences it.
+2. No, the operands on the same level as prefix ++ and = read right to left,all other operands read left to right.
+3. Dynamic starting size arrays, pass by reference for values, Dynamic memory allocation, provide a way to modify fuction calling arguments, more efficient use of memory and time in regards to arrays, multiple return functions, return arrays
+4.1 char *, its a string, which is a char[] with a '\0', and all arrays are pointers of their respective data type
+4.2 Invalid, xyz is not a declared array
+4.3 1, ASCII value of '\0' is 0, 0==0 returns 1
+4.4 int, dereference of the pointer a
+4.5 int *, creates a pointer assigned to a[0]
+4.6 int, dereference of the pointer p
+4.7 int **, creates a pointer for pointer p
+4.8 char*, derefernce of the double pointer argv
+4.9 Invalid, can't create a pointer to a function
+4.10 5 or logic error, if called within the main function, and string.h is included, it will return 5, otherwise it will give you an error due to lack of string.h's inclusion, or logic error if called outside main.
