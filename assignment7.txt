@@ -1,0 +1,15 @@
+Rumeet Goradia
+1. ++*p increments the value that is stored in the memory location to which p points and stores that value. *p++ stores the value at the location to which p points and then advances p. (*p)++ stores the value at the location to which p points and then increments that value.
+2. The left to right or right to left order for operator precedence is partially guaranteed for operator precedence. That is, many operators will be evaluated from left to right, but some operators operate from right to left. Therefore, in a line of code which contains operators from both of these groups, the expression will be evaulated in both directions.
+3. Pointers allow for dynamic memory location, meaning that if we use them as arrays, the sizes of these arrays are not static. Pointers are also useful as parameters for functions. They can be used in functions that need to change their actual parameters; in other words, they can essentially be used to pass certain variables by reference instead of by value. Furthermore, without pointers, it is impossible to return an array of values.
+4. 1. char *  --> "abc" is a string, which is basically a char pointer
+   2. invalid --> substracting a char from a string is not allowed in C
+   3. invalid --> cannot compare char to int
+   4. 10      --> points to the first value of "a"
+   5. p-2     --> gives address number of a[0]
+   6. 12      --> gives value of a[2]
+   7. int**   --> stores memory address of a memory address of an int
+   8. char*   --> advances memory location, then gives value of pointer of pointer, which is pointer
+   9. int *   --> gives memory location of int
+   10. int    --> sizeof gives integer value
+
