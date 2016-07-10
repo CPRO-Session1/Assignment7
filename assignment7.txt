@@ -1,0 +1,16 @@
+1. For an array {1, 2, 3, 4}
+	a. ++*p will get the variable located at *p then increment it. if *p is at index 0, new array would be {2, 2, 3, 4} with *p at index 0
+	b. *p++ will increment p (move the index forward once), then get the value of it. If *p is at index 0, then the array will be {1,2,3,4} with *p at index 1
+	c. *++p is equivalent to *p++ as the prefix ++ and * evaluate right to left.
+2. No, it depends on the type of operator.
+3. Pointers are used for functions that need to actually change their arguments or for returning an array of values
+4.1 char[]
+4.2 invalid
+4.3 int 0
+4.4 int 10
+4.5 int * a
+4.6 int 12
+4.7 int ** 
+4.8 char *
+4.9 invalid
+4.10 unsigned long int 8
