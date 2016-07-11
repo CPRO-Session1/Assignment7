@@ -1,0 +1,16 @@
+1)
+    ++*p increments the value that p is pointing to
+    *p++ gets the value that p is pointing to, then increments p
+    *++p increments p, then returns the new value that p is pointing at
+2) yes?
+3) You can pass by reference
+4.1) char *
+4.2) 121
+4.3) 1
+4.4) 10
+4.5) int *
+4.6) 12
+4.7) int **
+4.8) char *
+4.9) invalid: we never learned about pointers to functions
+4.10) 6
