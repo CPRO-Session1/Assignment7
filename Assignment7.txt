@@ -1,0 +1,19 @@
+Clarke Littlejohn
+
+1) if i recall correctly ++*P moves the pointer then gets the values, *p++ get  the value in the point the increments it
+   and *++p is not an apoerator that works.
+
+2) I am confused by what this si asking it will go by what it is prendence so to will go from right to left or left to right based on the highest order
+
+3) you are working directly with the value so it is always modifing the number.
+
+4.1)string/char array/
+.2)invalid
+.3)invalid
+.4)pointer this gets the address of the array
+.5)address this gets the address
+.6)int this derefences the value
+.7)pointer address p is pointer and ampersand gets the address
+.8) this seems like incorrect syntax so it is invalid.
+.9)invalid is invalid as main is a function and this should not work.
+.10) it will return a value that is is 6
