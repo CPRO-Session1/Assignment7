@@ -1,0 +1,5 @@
+Oscar So
+1. First one means, ++(*p) adds one before implementing pointer. Second one is (*P++), but precedence of ++ is treated before P. Last one is similar to the second one, but it is treated as (*++P) where the compiler looks for associativity.
+2. I think both do not guarentee operator precedence, this is because in postfix, &&, ||, mathematical functions, comparison, the computer code reads it from left to right. However, for conditions, assignment of variables, and prefixes, the code goes from right to left. 
+3. Advantages of pointers are when handling arrays, and data tables. They allow references to functions, and can return multiple variables and values.
+4. I am a bit clueless on number 4 and would like some explanation. Thanks.
