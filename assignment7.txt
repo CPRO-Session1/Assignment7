@@ -13,8 +13,8 @@ Assignment 7
 
 
 4. (*int, &char, 10, 0 or 1, ) (looking at the types: *X==y answer=o or 1 or invalid)
-4.1: char 
-4.2: invalid
+4.1: char *
+4.2: 1
 4.3: 1
 4.4: pointer
 4.5: int *
