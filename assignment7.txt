@@ -1,0 +1,24 @@
+Bettina Benitez
+
+1. ++*p reads right to left. Therefore, it increments point p.  Same with *++p, the order of operation is right to left. But point p is incremented then the dereferenced. *p++ is read left to right therefore it is incremented then dereferenced. 
+
+2. No the order of precedence is not guaranteed
+
+3. advantages:
+- it points to a specific lovation in memory
+- provides direct access to memory
+- reduces storage and complexity
+
+4
+ - 4.1: *char
+ - 4.2: invalid
+ - 4.3: invalid 
+ - 4.4: *int pointer to the array
+ - 4.5: *char reference to the array
+ - 4.6: *int
+ - 4.7: reference to the pointer
+ - 4.8: incrementing the char argv
+ - 4.9: reference to main
+ - 4.10: part of the fgets fucntion to get the string.
+
+
