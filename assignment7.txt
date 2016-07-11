@@ -1,0 +1,19 @@
+Yael Kelmer. 
+
+1. ++*p increments the value of the datatype located at pointer p and then points at that location. *p++ points at the location in memory of p and then increments the value there.  
+
+2. The left to right order is guaranteed for operator precedence. 
+
+
+3. One advantage of pointers is that you can move along a string and point to different parts of it. 
+
+4.1 datatype: char array
+4.2 this is invalid
+4.3 datatype: int. value: 0
+4.4 datatype: int. value: 10
+4.5 datatype: int. value: 10
+4.6 datatype: int. value: 12
+4.7 datatype: address. a[0]
+4.8 datatype: character
+4.9 datatype: address.
+4.10 datatype: int. value: 5
