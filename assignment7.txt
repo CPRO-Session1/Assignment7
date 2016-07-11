@@ -1,0 +1,18 @@
+Olivier Gabison
+
+1. ++*p dereferences the value that the p variable is pointing to and then increments it. While *p++ increments the pointer,
+and then dereferences it. Finally, *++p first increments the pointer and then dereferences it.
+
+2. No, order of precedence is not done through left to right order.
+
+3. I think the best uses of pointers is passing by reference and dynamic starting sizes on arrays.
+
+4.1  char *, its a string, and char[] has '\0' at the end of it.
+4.3 1 - the ASCII value of '\0' is 0. Therefore, 0 = 0, which returns 1;
+4.4 int, dereference of pointer a
+4.5 int *, it creates a pointer that is used upon a[0]
+4.6 int, dereference of pointer p
+4.7 int **, creates a pointer for pointer p
+4.8 char *, derefernce of the double pointer 'argv'
+4.9 This does not work as you cannot cast a pointer to a function
+4.10 5 (only when string.h is included)
