@@ -1,0 +1,18 @@
+Aly Milich
+
+1. ++*p and *++p both increment the value of the array that the pointer is pointing to whereas *p++ moves the pointer over.
+
+2. Left to right.
+
+3. Pointers make it easier to use arrays to change the values of certain spots. Since you don't need the for loop, it decreases the algorithmic complexity of your code and takes up less space in the computer & is easier to run.
+
+4.1 char array
+4.2 Invalid -- "xyz" is not in the array
+4.3 Invalid -- \0 will never equal 0
+4.4 Pointer
+4.5 Address is 0
+4.6 pointer
+4.7 Address is still 0
+4.8 Pointer
+4.9 Invalid
+4.10 5
