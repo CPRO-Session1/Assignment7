@@ -1,0 +1,22 @@
+
+
+1. ++*p increments what the pointer points to whereas the *p++ actually increases the value of the pointer. *++p is also increases what the pointer points to.
+
+
+2. Oh the left is guaanteed because its higher in the order of operations.
+
+
+3. pointers allow easier use with arrays. You can go through the pointer without the for loop and it allows easier access outside of the main function. 
+
+
+4.1 char array 
+4.2 Invalid becaus xyz in quotes is not an arry
+4.3 Invalid becuse that will never be true
+4.4 pointer
+4.5 address is 0
+4.6 pointer
+4.7 adress is 0 becuase we haven't moved it anywhere only increased the value at a point
+4.8 A pointer
+4.9 Invalid, you can access main like that because it isn't a pointer
+4.10 5
+I don't want to edit this now that we're going over it, but I just didn't understand what the questions were asking....
