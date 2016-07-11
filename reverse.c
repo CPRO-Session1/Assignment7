@@ -19,7 +19,7 @@ int main(){
 	p2 = &arr[strlen(arr)-1];  /* points to last character in string */
 
 
-/* Diagnostic purposes ... */
+/* Diagnostic purposes ... 
 
 	printf("\nThe following is diagnostic *****\n");
 	printf("You input: %s\n",arr);
@@ -32,7 +32,7 @@ int main(){
 	printf("p1 address is %d\n",p1);
 	printf("p2 address is %d\n",p2);
 	printf("end diagnostic!**** \n\n");
-
+*/
 /* End diagnostic */
 
 
