@@ -1,0 +1,25 @@
+1.
+The difference between ++*P, *p++ and *++p is that:
+++*P increases the value of *p by one
+*p++ moves up the location of the pointer by one
+*++p will do exactly what ++*p does
+
+2. 
+Yes, the order is guaranteed
+
+3.
+For fuction parameters
+for dynamic programming
+Pointer enables you to do things that are otherwise impossible, it also speeds up the operation
+
+4.
+4.1 invalid because b and c are undeclared.
+4.2 invalid because of undeclared variables.
+4.3 I am not sure what this means.
+4.4 10 because the pointer of a string prints the first number.
+4.5 10 because a[0] = 10.
+4.6 12 because a = 10 and *p = a + 2.
+4.7 invalid because p has not been declared although *p is.
+4.8 ello because argv *argv is moved up one location it will not print the h.
+4.9 I am not sure what this will output.
+4.10 10 because that is the size of the string.
