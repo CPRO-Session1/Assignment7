@@ -1,0 +1,45 @@
+Andrew Zihenni
+In a text file `assignment7.txt`, answer the following questions:
+1. Explain the difference between ++*p, *p++ and *++p, if there is any. 
+	++*p increments only the value of the pointer of p. 
+	*p++ points to the incremented value of p. 
+	*++p does the same thing as *p++. 
+
+2. Is the left to right or right to left order guaranteed for operator precedence?
+	- C does not always evaluate left-to-right or right-to-left. 
+	- Generally, function calls are evaluated first, followed by complex expressions and then simple expressions.
+
+3. What are the advantages of using pointers? 
+Pointers are important for larger data amounts. 
+They are necessary for dynamic memory location, many data structures, and efficient handling of these larger data amounts.
+Without pointers, one would have to store all data globally, making this extremely tedious and inefficient. 
+
+4. Consider a C program’s main() function that starts as follows:
+``` C
+    int main(int argc, char **argv) {
+      int a[10] = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 };
+      int *p = a + 2;
+      char *str = "hello";
+```
+- For integer expressions (i.e., the expressions whose types are char, short, int, size_t, long, or long long--either signed or unsigned), write the actual number value.
+- For non-integer expressions, write the type name, in the format that you use to declare a variable of that type. Some example type names include but are not limited to:
+    
+    ```C
+      int *
+      double
+      double **
+      int(*)(int)
+    ```
+- Write "invalid" if a given expression is not a valid C expression.
+- Make sure sure to explain each of your answers. 
+
+ 4.1 "abc" <br>: invalid
+ 4.2 "xyz"[1] - ’y’ <br>: not sure
+ 4.3 ’\0’ == 0 <br>: not sure
+ 4.4 *a <br>: pointer to value of a
+ 4.5 &a[0] <br>: invalid
+ 4.6 *p <br>: pointer to value of p
+ 4.7 &p <br>: This is a non-integer expression.  
+ 4.8 *++argv <br>: value = 1
+ 4.9 &main <br>: invalid
+ 4.10 sizeof(str) <br>: value = 5
