@@ -1,0 +1,25 @@
+Ava N.
+July 7, 2015
+
+Assignment 7
+
+1. ++*p increments value at location p point to, then evaluates (stores) to incremented value.
+*p++ evaluates the value at location p points to, then advances p. (*p)++ evaluates the value at the location p points to, then increments that value.
+
+
+2. The left to right or right to left order for operator precedence is not guarenteed.
+
+3. The advantages of using pointers are that they provide a way for functions to modify their calling arguments, pointers support dynamic memory allocation, and they increase efficiency when working with arrays. 
+
+
+4. (*int, &char, 10, 0 or 1, ) (looking at the types: *X==y answer=o or 1 or invalid)
+4.1: char 
+4.2: invalid
+4.3: 1
+4.4: pointer
+4.5: int *
+4.6: int
+4.7: pointer
+4.8: char*
+4.9: invalid
+4.10: invalid
