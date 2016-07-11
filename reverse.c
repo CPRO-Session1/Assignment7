@@ -11,7 +11,7 @@ int main(){
 	char *p2;
 	char temporary;
 
-	printf("Input a string that is under 50 letters long!!!!!! \n");
+	printf("Input a string that is under 50 letters long. \n");
 
 	fgets(arr, sizeof(arr), stdin);
 	printf("\n");
