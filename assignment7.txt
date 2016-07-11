@@ -1,0 +1,21 @@
+1. Explain the difference between ++*p, *p++ and *++p, if there is any. 
+	++*p increments the value that p is pointing to and stores that new value at p. *p++
+	Stores the value of p, then moves the pointer. I don't know what the last one does.
+2. Is the left to right or right to left order guaranteed for operator precedence?
+	Not neccesarily, it depends what operators are being used. If a postfix is being used
+	then i's right to left, but otherwise it is right to left.
+3. What are the advantages of using pointers? 
+	Although shockingly, mind-bogglingly annoying, pointers can be helpful and more efficient
+	when used with arrays for the purposes of returning arrays from functions or just
+	managing arrays in general.
+4. 
+	4.1 "abc"		char name[]
+	4.2 "xyz"[1] - ’y’	?
+	4.3 ’\0’ == 0		0
+	4.4 *a			10
+	4.5 &a[0]		int
+	4.6 *p			12
+	4.7 &p			int
+	4.8 *++argv		?
+	4.9 &main		?
+	4.10 sizeof(str)	int
