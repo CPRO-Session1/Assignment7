@@ -1,0 +1,22 @@
+//Anya Lauria 
+
+1. ++*p increments the variable that the pointer is pointing to first, and then evaluates it, similar to prefix 
+   incrementing in regular variables. *p++ evaluates the variable that the  pointer is pointing to first, then 
+   advances it. Not sure about *++p 
+2. The left to right order and right to left order depends on the kind of operation. For example, post fix operations 
+   always take precedence. The order can be manipulated using parantheses. 
+3. You can use them in function arguments, and not copy large chunks of memory, so the use of pointers is efficient. 
+   Pointers are also used to return arrays- there is no other way. Instead of using a character array, we can use 
+   pointers to work with strings instead, which is much easier. They also allow us to dynamic memory allocation, and
+   resize data structure whenever needed. 
+4.  4.1 char * 
+    4.2 invalid 
+    4.3 0==0 returns 1, so 1 
+    4.3 Int 
+    4.4 Int *- this is creating a pointer for a[0]
+    4.5 Int 
+    4.6 Int **- creates a pointer for pointer p 
+    4.8 I didn't understand this 
+    4.9 Invalid, you can't create a pointer of a function 
+    4.10 5- number of characters in the character array 'Hello' 
+
