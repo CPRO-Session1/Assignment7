@@ -6,25 +6,37 @@
 #include <string.h>
 
 int main(){
-	char input;
 	char arr[50];
 	char *p1;
 	char *p2;
-	char temporary='\0';
-	int n=100;
+	char temporary;
 
-	printf("Give me a word that is under 50 letters long!!!!!! \n");
-	//scanf(%s, &input);
+	printf("Input a string that is under 50 letters long!!!!!! \n");
+
 	fgets(arr, sizeof(arr), stdin);
-	arr[strlen(arr)-1]='\0';
 	printf("\n");
+	p1 = &arr;                 /* points to first character in string */
+	p2 = &arr[strlen(arr)-1];  /* points to last character in string */
 
-	*p1 = arr[0];
-	*p2 = arr[0];
 
-	while (*p2 + 1 != '\0'){
-		*p2++;
-	}
+/* Diagnostic purposes ... */
+
+	printf("\nThe following is diagnostic *****\n");
+	printf("You input: %s\n",arr);
+	printf("Sizeof(arr) is %d\n",sizeof(arr));
+	printf("String Length (including null) is: %d\n",strlen(arr));
+	printf("first character is: %c\n",arr[0]);
+	printf("last character is: %c\n",arr[strlen(arr)-2]);
+	printf("P1 and P2 point to char: %c %c\n",*p1,*p2);
+	printf("arr[0] is: %c\n",arr[0]);
+	printf("p1 address is %d\n",p1);
+	printf("p2 address is %d\n",p2);
+	printf("end diagnostic!**** \n\n");
+
+/* End diagnostic */
+
+
+
 
 	while (p1 <= p2){
 		temporary = *p2;
@@ -37,8 +49,3 @@ int main(){
 	printf("Here is the reversed of what you wrote: %s\n", arr);
 
 }
-
-/*
-void reverse(char *p1, char*p2){
-}
-*/
