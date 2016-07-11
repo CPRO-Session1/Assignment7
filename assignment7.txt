@@ -19,3 +19,4 @@
 4.8 A pointer
 4.9 Invalid, you can access main like that because it isn't a pointer
 4.10 5
+I don't want to edit this now that we're going over it, but I just didn't understand what the questions were asking....
