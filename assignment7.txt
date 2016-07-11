@@ -1,0 +1,18 @@
+Sean Kee
+
+1. For ++*p, it is read right to left. For *p++, it first adds, then does the *p. For *++p, it also reads right to left.
+
+2. Yes, left to right or right to left is guarenteed because the compiler uses a sort of "order of operations" in it's own sense. For terms that are the same in terms of precedence, the compiler reads right to left.
+
+3. The advantage of using pointers is that a) You can have a string with an undefined length. b) Pass variables by reference rather than value.
+
+4.1 char a[3] = "abc"; for a string
+4.2 Invalid because you are trying to declare an array with a string, then using a - instead of a =
+4.3 Invalid because you are trying to set a character from a string(end of string character) to an integer
+4.4 Pointer- int *a = variable; Points to the variable address
+4.5 Invalid because arrays already pass by refernce 
+4.6 Pointer- int *p = variable; Points to the variable address
+4.7 Refernce- scanf("%d", &variable); You are giving the function the address of the variable so it can be used in a pointer.
+4.8 *++argv; increases the value that argv is pointing to by 1 after the operation is complete.
+4.9 Reference- fxn(&main); you are sending the address of the main variable to the function so that it can be used as a pointer.
+4.10 sizeof(str); used to find the size of a string in terms of bytes.
