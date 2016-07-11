@@ -1,0 +1,30 @@
+Caleb Gershengorn
+
+1:
+++*p:advances the pointer one space in the array in memory, than checks what is in that spot.
+*p++: checks the space in memory at that spot, then advances one space.
+*++p" does the same as the first, because the placement of the '++' makes the difference, not the '*'
+
+2:
+Left to right garuntees operator precedence.
+
+3:
+Using pointers allows you to more easily look through lists and access things in memory than having to reference them directly.
+
+4:
+int *p=12
+*p=2
+char
+
+4.1--valid
+4.2--invalid(dash is not a thing)
+4.3--valid(just false)
+4.4--valid(dereference operator)
+4.5--valid(stores a value at a[0])
+4.6--valid(dereference operator)
+4.7--valid(stores value at p)
+4.8--invalid
+4.9--invalid(main is a special use function)
+4.10--valid
+
+
