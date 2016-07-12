@@ -1,0 +1,23 @@
+Julia Tan
+
+1. The order of operations of prefix ++ and * is the same. It is read from right to left. The order of operations of postfix ++ is higher than both * and prefix ++. It is read from left to right.
+
+++*p would be read as ++(*p). (dereferences p then increments it)
+*p++ would be read as *(p++). (increments p then dereferences it)
+*++p would be read as *(p++) as well. (incremeents p then dereferences it)
+
+2. No it is not guaranteed, as sometimes expressions are read left to right, and other times from right to left, as seen on the example above.
+
+3. Pointers are useful for handling large amounts of data efficiently. They are also used to access variables in other functions without using global variables, as global variables can be confusing and difficult to debug. Other times, pointers are essential, such as in complex data structures.
+
+4.
+4.1 char * (char * are strings)
+4.2 invalid (if "xyz" is an array, you cannot subtract letters in each element)
+4.3 1 ('/0' is equal to 0. when tested if its equal to 0, it is true and therefore returns 1)
+4.4 10 (first value in array)
+4.5 10 (first value in array)
+4.6 int * (*p is an int pointer)
+4.7 int ** (this makes a pointer for pointer p)
+4.8 char * (dereference of the double pointer 'argv')
+4.9 int * (makes a pointer for the main function)
+4.10 5 (0 to 5, as \0 is also an element in strings)
